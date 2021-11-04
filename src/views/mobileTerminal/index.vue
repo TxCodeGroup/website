@@ -146,16 +146,16 @@
         </div>
         <div class="body-communities-item" @click="goForum">
           <div class="body-communities-item-img">
-            <img src="../../assets/images/index/Twitter.png" alt />
+            <img src="../../assets/images/index/Forum.png" alt />
           </div>
           <div class="body-communities-item-text" style="padding-left:0.26rem">
             <div class="body-communities-item-title">Forum</div>
-            <div class="body-communities-item-des">https://forum.txcode.org/</div>
+            <div class="body-communities-item-des">https://txcode.io/</div>
           </div>
         </div>
         <div class="body-communities-item" @click="goTelegram">
           <div class="body-communities-item-img">
-            <img src="../../assets/images/index/Twitter.png" alt />
+            <img src="../../assets/images/index/Telegram.png" alt />
           </div>
           <div class="body-communities-item-text" style="padding-left:0.26rem">
             <div class="body-communities-item-title">Telegram</div>
@@ -173,6 +173,7 @@
 </template>
 
 <script>
+
 import HomeCanvas from "@/components/HomeCanvas";
 import Swiper from "swiper";
 export default {
@@ -242,7 +243,7 @@ export default {
       window.open("https://twitter.com/TxCodeGroup");
     },
     goForum() {
-      window.open("https://forum.txcode.org/");
+      window.open("https://txcode.io/");
     },
     goTelegram() {
       window.open("https://t.me/TxCode");

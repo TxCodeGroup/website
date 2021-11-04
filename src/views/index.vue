@@ -2,9 +2,9 @@
   <div class="index">
     <!-- 头部 -->
 
-    <div class="header-contianer">
+    <div class="header-contianer wow fadeInUp">
       <div class="header-box">
-        <div class="header-center">
+        <div class="header-center wow fadeInUp">
           <img
             style="width:86px;height:70px;cursor:pointer;"
             src="../assets/images/index/logoicon.png"
@@ -27,7 +27,7 @@
             />
           </div>
         </div>
-        <div class="header-content">
+        <div class="header-content wow fadeInUp">
           <div class="des-1">{{$t('title')}}</div>
           <div v-if="$i18n.locale == 'en'">
             <div class="des-2">{{$t('introduce')}}</div>
@@ -41,21 +41,21 @@
       </div>
     </div>
     <div class="body-contianer">
-      <div class="body-products">{{$t('Academy')}}</div>
-      <div class="body-products-wrap">
-        <div class="body-products-item" @click="goAcademy">
+      <div class="body-products wow fadeInUp">{{$t('Academy')}}</div>
+      <div class="body-products-wrap wow fadeInUp">
+        <div class="body-products-item wow fadeInUp" @click="goAcademy">
           <div class="des-1">
             {{$t('Tools')}}
             <img src="../assets/images/index/itemBg.png" alt />
           </div>
         </div>
-        <div class="body-products-item" @click="goAcademy">
+        <div class="body-products-item wow fadeInUp" @click="goAcademy">
           <div class="des-1">
             {{$t('testnet')}}
             <img src="../assets/images/index/itemBg.png" alt />
           </div>
         </div>
-        <div class="body-products-item" @click="goAcademy">
+        <div class="body-products-item wow fadeInUp" @click="goAcademy">
           <div class="des-1">
             {{$t('LearningZone')}}
             <img src="../assets/images/index/itemBg.png" alt />
@@ -64,7 +64,7 @@
       </div>
       <div class="body-products" style="padding-bottom:69px">{{$t('How_can_I_participate')}}</div>
       <div class="body-Tink">
-        <div class="body-Tink-box">
+        <div class="body-Tink-box wow fadeInRight">
           <div>
             <img style="width:294px;height:230px;" src="../assets/images/index/learning.png" alt />
           </div>
@@ -74,7 +74,7 @@
           </div>
         </div>
       </div>
-      <div class="body-Token" style="padding-top:80px;padding-bottom:102px;">
+      <div class="body-Token wow fadeInLeft" style="padding-top:80px;padding-bottom:102px;">
         <div class="body-Tink-box">
           <div class="body-introduce" style="padding-right:59px">
             <div class="body-title des-end">{{$t('BrandBuilding')}}</div>
@@ -104,7 +104,7 @@
           </div>
         </div>
       </div>
-      <div class="body-Developers">
+      <div class="body-Developers wow fadeInRight">
         <div class="body-Tink-box">
           <div>
             <img
@@ -124,8 +124,8 @@
         <div class="body-communities-title">{{$t('Communities')}}</div>
         <div class="body-communities-des">{{$t('CommunitiesText')}}</div>
       </div>
-      <div class="body-communities-wrap">
-        <div class="body-communities-item" @click="goTwitter">
+      <div class="body-communities-wrap wow fadeInUp">
+        <div class="body-communities-item wow fadeInUp" @click="goTwitter">
           <div class="body-communities-item-img">
             <img src="../assets/images/index/Twitter.png" alt />
             <img src="../assets/images/index/TwitterB.png" alt />
@@ -133,15 +133,15 @@
           <div class="body-communities-item-title">Twitter</div>
           <div class="body-communities-item-des">https://twitter.com/TxCodeGroup</div>
         </div>
-        <div class="body-communities-item" @click="goForum">
+        <div class="body-communities-item wow fadeInUp" @click="goForum">
           <div class="body-communities-item-img">
             <img src="../assets/images/index/Forum.png" alt />
             <img src="../assets/images/index/ForumB.png" alt />
           </div>
           <div class="body-communities-item-title">Forum</div>
-          <div class="body-communities-item-des">https://forum.txcode.org/</div>
+          <div class="body-communities-item-des">https://txcode.io/</div>
         </div>
-        <div class="body-communities-item" @click="goTelegram">
+        <div class="body-communities-item wow fadeInUp" @click="goTelegram">
           <div class="body-communities-item-img">
             <img src="../assets/images/index/Telegram.png" alt />
             <img src="../assets/images/index/TelegramB.png" alt />
@@ -151,7 +151,7 @@
         </div>
       </div>
     </div>
-    <div class="footer-contianer">
+    <div class="footer-contianer wow fadeInUp">
       <a class="footer-contianer-des" href="https://github.com/TxCodeGroup/website" target="_blank">
         {{$t('end')}} <i class="el-icon-arrow-right" style="font-size: 26px; font-weight: bold;"/>
       </a>
@@ -160,6 +160,7 @@
 </template>
 
 <script>
+import AnimationMixn from "@/mixin/initAnimation.js";
 import HomeCanvas from "@/components/HomeCanvas";
 import Swiper from "swiper";
 export default {
@@ -234,7 +235,7 @@ export default {
       window.open("https://twitter.com/TxCodeGroup");
     },
     goForum() {
-      window.open("https://forum.txcode.org/");
+      window.open("https://txcode.io/");
     },
     goTelegram() {
       window.open("https://t.me/TxCode");
