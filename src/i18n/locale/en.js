@@ -24,5 +24,5 @@ export default {
   Resources:'Resources',
   Communities:'Communities',
   CommunitiesText:'Spaces run by the community for TxCode enthusiasts to share news and build together.',
-  end:'This website is open-source.'
+  end:'This website is open-source'
 }

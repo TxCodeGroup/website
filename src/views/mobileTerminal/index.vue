@@ -165,7 +165,9 @@
       </div>
     </div>
     <div class="footer-contianer">
-      <div class="footer-contianer-des">{{$t('end')}}</div>
+      <a class="footer-contianer-des" href="https://github.com/TxCodeGroup/website" target="_blank">
+        {{$t('end')}} <i class="el-icon-arrow-right" style="font-size: .25rem; font-weight: bold;"/>
+      </a>
     </div>
   </div>
 </template>

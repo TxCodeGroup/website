@@ -21,6 +21,6 @@ export default {
   Resources:'资源',
   Communities:'社区',
   CommunitiesText:'为TxCode爱好者提供的共享新闻和共同建设的空间',
-  end:'This website is open-source.'
+  end:'This website is open-source'
 
 }

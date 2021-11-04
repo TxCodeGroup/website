@@ -152,7 +152,9 @@
       </div>
     </div>
     <div class="footer-contianer">
-      <div class="footer-contianer-des">{{$t('end')}}</div>
+      <a class="footer-contianer-des" href="https://github.com/TxCodeGroup/website" target="_blank">
+        {{$t('end')}} <i class="el-icon-arrow-right" style="font-size: 26px; font-weight: bold;"/>
+      </a>
     </div>
   </div>
 </template>
@@ -524,14 +526,18 @@ export default {
     display: flex;
     // align-items: center;
     justify-content: center;
+    padding-top: 340px;
+      padding-bottom: 46px;
     .footer-contianer-des {
       cursor: pointer;
-      padding-top: 340px;
-      padding-bottom: 46px;
+      
       font-size: 36px;
       font-family: PingFang SC;
       font-weight: bold;
       color: #ffffff;
+      // display: flex;
+      // align-items: center;
+      
     }
   }
 
