@@ -1,0 +1,26 @@
+export default {
+  title:'TxCode',
+  introduce:'是完全去中戏化的区块链技术社区，致力于为广大的开发者提供一个知识共享与学习的交流平台',
+  Academy:'学堂',
+  Tools:'开发工具',
+  testnet:'测试网',
+  LearningZone:'教程',
+  How_can_I_participate:'如何参与？',
+  Learning:'学习',
+  joinDAO:'join DAO学习区块链技术课程',
+  BrandBuilding:'品牌共建',
+  BrandBuildingDes:'做TxCode相关，个人IP分享课程、建立博客分享区块链内容、建立自媒体账号等分布式自治TxCode',
+  Buildingtext1:'TxCode related brand-building.',
+  Buildingtext2:'Sharing courses, establishing blog, we-media accounts and',
+  Buildingtext3:'other distributed autonomous TxCode to share blockchain content.',
+  Buildingtext4:'we-media accounts and',
+  Buildingtext5:'other distributed autonomous',
+  Buildingtext6:'TxCode to share blockchain content.',
+  Development:'开发',
+  Developmenttext1:'参与项目合作开发应用',
+  Resources:'资源',
+  Communities:'社区',
+  CommunitiesText:'为TxCode爱好者提供的共享新闻和共同建设的空间',
+  end:'This website is open-source.'
+
+}
